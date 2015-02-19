@@ -121,6 +121,7 @@ extern const vf_info_t vf_info_yadif;
 extern const vf_info_t vf_info_yuvcsp;
 extern const vf_info_t vf_info_yvu9;
 extern const vf_info_t vf_info_zrmjpeg;
+extern const vf_info_t vf_info_unwarpvr;
 
 // list of available filters:
 static const vf_info_t* const filter_list[]={
@@ -217,6 +218,7 @@ static const vf_info_t* const filter_list[]={
     &vf_info_ow,
     &vf_info_fixpts,
     &vf_info_stereo3d,
+    &vf_info_unwarpvr,
     NULL
 };
 
